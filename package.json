@@ -21,6 +21,7 @@
     "dotenv": "^16.0.3",
     "lorem-ipsum": "^2.0.8",
     "node-fetch": "^2.6.7",
+    "twilio": "^4.10.0",
     "weather-js": "^2.0.0"
   }
 }
