@@ -6,7 +6,8 @@ module.exports = {
     .setDescription("Returns a random recipe for you to make!"),
   async execute(interaction) {
     const fetch = require("node-fetch");
-    fetch("https://www.themealdb.com/api/json/v1/1/random.php")
+    let recipe = " ";
+    await fetch("https://www.themealdb.com/api/json/v1/1/random.php")
       .then((response) => response.json())
       .then((data) => {
         const meal = data.meals[0];
@@ -30,8 +31,9 @@ module.exports = {
         }
 
         const source = meal.strSource ? `\n\nSource: ${meal.strSource}` : "";
-        interaction.reply(`${mealInfo}${source}`);
+        recipe = `${mealInfo}${source}`;
       })
       .catch((err) => console.error(err));
+    await interaction.reply(recipe);
   },
 };
