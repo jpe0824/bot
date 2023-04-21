@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("discord.js");
-require("dotenv").config(); //to start process from .env file
+require("dotenv").config();
 
 module.exports = {
   data: new SlashCommandBuilder()
