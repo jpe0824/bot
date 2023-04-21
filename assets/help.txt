@@ -1,0 +1,12 @@
+Here are some commands I can do:
+
+/help - displays this help info
+/lorem - produces some lorem ipsum words
+/recipe - gives the number of current cases in Utah county
+/dadjoke - tells a random dad joke
+/chuck - tells a random Chuck Norris joke
+/die - kills me
+/text - sends a text message to someone's phone
+/email - sends an email
+/music - streams music remotely
+/weather - gives a local weather blurb
