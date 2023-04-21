@@ -17,11 +17,14 @@
   },
   "homepage": "https://github.com/jpe0824/bot#readme",
   "dependencies": {
+    "discord-player": "^6.2.1",
     "discord.js": "^14.9.0",
     "dotenv": "^16.0.3",
     "lorem-ipsum": "^2.0.8",
     "node-fetch": "^2.6.7",
+    "nodemailer": "^6.9.1",
     "twilio": "^4.10.0",
-    "weather-js": "^2.0.0"
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^4.11.4"
   }
 }
