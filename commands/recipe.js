@@ -21,9 +21,7 @@ module.exports = {
           }
         }
 
-        const mealInfo = `${meal.strMeal}\n\nIngredients: ${ingredients.join(
-          ", "
-        )}\n\nInstructions: ${meal.strInstructions}`;
+        let mealInfo = `${meal.strMeal}\n\nIngredients: ${ingredients.join(", ")}\n\nInstructions: ${meal.strInstructions}`;
 
         if (mealInfo.length > 1900) {
           let outputString = mealInfo.substring(0, 1900);

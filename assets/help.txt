@@ -1,12 +1,13 @@
 Here are some commands I can do:
 
+/command args - description
 /help - displays this help info
-/lorem - produces some lorem ipsum words
-/recipe - gives the number of current cases in Utah county
+/lorem type amount - produces some lorem ipsum words
+/recipe - gives a random recipe
 /dadjoke - tells a random dad joke
 /chuck - tells a random Chuck Norris joke
-/die - kills me
-/text - sends a text message to someone's phone
-/email - sends an email
-/music - streams music remotely
-/weather - gives a local weather blurb
+/die password - kills me
+/text phone-num message - sends a text message to someone's phone
+/sendmail to subject body - sends an email
+/translate text lang-code - translates text to a given language
+/weather city state - gives a local weather blurb
